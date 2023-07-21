@@ -1,4 +1,4 @@
-
+class Solution {
 fun maxProduct(nums: IntArray): Int {      //  1  2  3  4
     if (nums.isEmpty()) return 0
 
@@ -18,4 +18,5 @@ fun maxProduct(nums: IntArray): Int {      //  1  2  3  4
     }
 
     return result
+}
 }
